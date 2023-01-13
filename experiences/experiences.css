@@ -1,0 +1,732 @@
+body{
+ width:100%;
+}
+
+/** navigation tab **/
+
+.logo {
+	position: absolute;
+	width: 41px;
+	height: 40px;
+	left: 2.7%;
+	top: 27px;
+
+	background: url(rocket);
+}
+
+.spacia {
+	position: absolute;
+	width: 94px;
+	height: 40px;
+	left: 6.2%;
+	top: 27px;
+
+	font-family: 'Apple LiGothic';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 40px;
+
+	color: #FFFFFF;
+}
+
+.experiences {
+	position: absolute;
+	width: 124px;
+	height: 30px;
+	left: 53.8%;
+	top: 40px;
+	
+	color: #878787;
+}
+
+.modeltrip {
+	position: absolute;
+	width: 115px;
+	height: 30px;
+	left: 68.5%;
+	top: 40px;
+	color: #878787;
+}
+
+.about {
+	position: absolute;
+	width: 63px;
+	height: 30px;
+	left: 82.5%;
+	top: 40px;
+	color: #878787;
+}
+
+.search {
+	position: absolute;
+	width: 48px;
+	height: 48px;
+	left: 93.5%;
+	top: 31px;
+}
+
+.lineone {
+	position: absolute;
+	width: 100%;
+	height: 0px;
+	left: 0px;
+	top: 98px;
+
+	border: 0.5px solid #FFFFFF;
+}
+
+.linetwo {
+	position: absolute;
+	width: 110px;
+	height: 0px;
+	left: 13.1%;
+	top: 40px;
+
+	border: 0.5px solid #FFFFFF;
+	transform: rotate(90deg);
+}
+
+.linethree {
+	position: absolute;
+	width: 110px;
+	height: 0px;
+	left: 46.4%;
+	top: 40px;
+	
+	border: 0.5px solid #FFFFFF;
+	transform: rotate(90deg);
+}
+
+.linefour {
+	position: absolute;
+	width: 110px;
+	height: 0px;
+	left: 88%;
+	top: 40px;
+
+	border: 0.5px solid #FFFFFF;
+	transform: rotate(90deg);
+}
+
+/** Formatting **/
+
+.title {
+	font-family: 'Toppan Bunkyu Midashi Mincho';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 64px;
+	line-height: 86px;
+	text-align: center;
+
+	color: #FFFFFF;
+}
+
+.smalltitle {
+
+	font-family: 'Toppan Bunkyu Midashi Mincho';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 35px;
+	line-height: 54px;
+
+	text-align: center;
+
+	color: #FFFFFF;
+}
+
+.text {
+	font-family: 'Apple LiGothic';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 25px;
+	line-height: 25px;
+
+	text-align: left;
+
+	color: #FFFFFF;
+}
+
+.greytext {
+	font-family: 'Apple LiGothic';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 30px;
+	line-height: 30px;
+	
+	text-align: center;
+
+	color: #878787;
+}
+
+.mainbar {
+	font-family: 'Apple LiGothic';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 30px;
+	line-height: 30px;
+	color: #878787;
+}
+
+.mainbar a:link{
+	color: #878787;
+	text-decoration: none;
+}
+
+.mainbar a:hover {
+	color: white;
+	text-decoration: underline;
+}
+
+.greyrectangle {
+	position: absolute;
+	width: 916px;
+	height: 502px;
+	
+	border:0px;
+	background: #252525;
+	border-radius: 30px;
+}
+
+.line {
+	border: 0.5px solid #FFFFFF;
+}
+
+.subtitle {
+	font-family: 'Apple LiGothic';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 30px;
+	line-height: 30px;
+	color: #FFFFFF;
+}
+
+.slimtitle {
+	font-family: 'Apple LiGothic';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 48px;
+	line-height: 48px;
+	color: #FFFFFF;
+}
+
+.minitext {
+	font-family: 'Apple LiGothic';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 20px;
+	color: #FFFFFF;
+}
+
+.gradientrectangle {
+	border: 0px;
+	background: linear-gradient(270deg, #252525 45.83%, rgba(37, 37, 37, 0) 100%);
+}
+
+@font-face {
+  font-family: Apple LiGothic;
+  src: url(../appleligothic.ttf);
+}
+
+@font-face {
+  font-family: Toppan Bunkyu Midashi Mincho;
+  src: url(../abrilfatface.otf);
+}
+
+/** earth orbit **/
+
+#carrotarrow {
+	position: absolute;
+	width: 51px;
+	height: 51px;
+	left: 83px;
+	top: 142px;
+}
+
+#rectangle {
+	position: absolute;
+	width: 664px;
+	height: 314px;
+	left: 160px;
+	top: 224px;
+
+	background: #252525;
+	border-radius: 30px;
+}
+
+#rectangleone {
+	position: absolute;
+	width: 664px;
+	height: 346px;
+	left: 160px;
+	top: 224px;
+
+	background: #252525;
+	border-radius: 30px;
+}
+
+#smalltitleone {
+	position: absolute;
+	width: 216px;
+	height: 54px;
+	left: 160px;
+	top: 105px;
+}
+
+#twosmalltitleone {
+	position: absolute;
+	width: 400px;
+	height: 54px;
+	left: 140px;
+	top: 105px;
+}
+
+#foursmalltitleone {
+	position: absolute;
+	width: 300px;
+	height: 54px;
+	left: 140px;
+	top: 105px;
+}
+
+#lineone {
+	position: absolute;
+	width: 537px;
+	height: 0px;
+	left: 217px;
+	top: 303px;
+}
+
+#linetwo {
+	position: absolute;
+	width: 537px;
+	height: 0px;
+	left: 217px;
+	top: 353px;
+}
+
+#linethree {
+	position: absolute;
+	width: 537px;
+	height: 0px;
+	left: 217px;
+	top: 403px;
+}
+
+#linefour {
+	position: absolute;
+	width: 537px;
+	height: 0px;
+	left: 217px;
+	top: 453px;
+}
+
+#subtitleone {
+	position: absolute;
+	width: 179px;
+	height: 30px;
+	left: 220px;
+	top: 243px;
+}
+
+#subtitletwo {
+	position: absolute;
+	width: 119px;
+	height: 30px;
+	left: 635px;
+	top: 248px;
+}
+
+#threesubtitletwo {
+	position: absolute;
+	width: 119px;
+	height: 30px;
+	left: 670px;
+	top: 245px;
+}
+
+#twosubtitletwo {
+	position: absolute;
+	width: 119px;
+	height: 30px;
+	left: 665px;
+	top: 245px;
+}
+
+#foursubtitletwo {
+	position: absolute;
+	width: 119px;
+	height: 30px;
+	left: 655px;
+	top: 245px;
+}
+
+#subtitlethree {
+	position: absolute;
+	width: 122px;
+	height: 30px;
+	left: 220px;
+	top: 293px;
+}
+
+#subtitlefour {
+	position: absolute;
+	width: 94px;
+	height: 30px;
+	left: 660px;
+	top: 293px;
+}
+
+#threesubtitlefour {
+	position: absolute;
+	width: 94px;
+	height: 30px;
+	left: 670px;
+	top: 293px;
+}
+
+#foursubtitlefour {
+	position: absolute;
+	width: 150px;
+	height: 30px;
+	left: 640px;
+	top: 293px;
+}
+
+#subtitlefive {
+	position: absolute;
+	width: 45px;
+	height: 30px;
+	left: 220px;
+	top: 343px;
+}
+
+#subtitlesix {
+	position: absolute;
+	width: 105px;
+	height: 30px;
+	left: 649px;
+	top: 343px;
+}
+
+#twosubtitlesix {
+	position: absolute;
+	width: 105px;
+	height: 30px;
+	left: 630px;
+	top: 343px;
+}
+
+#threesubtitlesix {
+	position: absolute;
+	width: 150px;
+	height: 30px;
+	left: 645px;
+	top: 343px;
+}
+
+#foursubtitlesix {
+	position: absolute;
+	width: 10px;
+	height: 30px;
+	left: 735px;
+	top: 343px;
+}
+
+#threesubtitleseven {
+	position: absolute;
+	width: 45px;
+	height: 30px;
+	left: 220px;
+	top: 393px;
+}
+
+#threesubtitleeight {
+	position: absolute;
+	width: 150px;
+	height: 30px;
+	left: 580px;
+	top: 393px;
+}
+
+#foursubtitleeight {
+	position: absolute;
+	width: 10px;
+	height: 30px;
+	left: 735px;
+	top: 393px;
+}
+
+#bluerectangle {
+	position: absolute;
+	width: 173px;
+	height: 47px;
+	left: 581px;
+	top: 439px;
+	border:0px;
+
+	background: #4584FF;
+	border-radius: 20px;
+}
+
+#bluerectangleone {
+	position: absolute;
+	width: 173px;
+	height: 47px;
+	left: 581px;
+	top: 489px;
+	border:0px;
+
+	background: #4584FF;
+	border-radius: 20px;
+}
+
+#booknow {
+	position: absolute;
+	width: 95px;
+	height: 25px;
+	left: 620px;
+	top: 432px;
+}
+
+#booknowone {
+	position: absolute;
+	width: 95px;
+	height: 25px;
+	left: 620px;
+	top: 482px;
+}
+
+a:hover #bluerectangle {
+	background: white;
+}
+
+a:hover #booknow {
+	color: #4584FF;
+}
+
+#earth {
+	position: absolute;
+	width: 273px;
+	height: 273px;
+	left: 1032px;
+	top: 244px;
+
+	background: url(earth.png);
+}
+
+#smalltitletwo {
+	position: absolute;
+	width: 258px;
+	height: 54px;
+	left: 160px;
+	top: 570px;
+}
+
+#gradientrectangleone {
+	position: absolute;
+	width: 1000px;
+	height: 541px;
+	left: 0px;
+	top: 708px;
+}
+
+#training {
+	position: absolute;
+	width: 449px;
+	height: 541px;
+	left: 1000px;
+	top: 716px;
+}
+
+#titleone {
+	position: absolute;
+	width: 28px;
+	height: 86px;
+	left: 160px;
+	top: 690px;
+}
+
+#slimtitleone {
+	position: absolute;
+	width: 400px;
+	height: 48px;
+	left: 250px;
+	top: 725px;
+}
+
+#textone {
+	position: absolute;
+	width: 524px;
+	height: 240px;
+	left: 238px;
+	top: 846px;
+}
+
+#twotextone {
+	position: absolute;
+	width: 524px;
+	height: 240px;
+	left: 238px;
+	top: 820px;
+}
+
+#minitextone {
+	position: absolute;
+	width: 671px;
+	height: 20px;
+	left: 243px;
+	top: 1195px;
+}
+
+#gradientrectangletwo {
+	position: absolute;
+	width: 1000px;
+	height: 541px;
+	left: 449px;
+	top: 1363px;
+}
+
+#spaceview {
+	position: absolute;
+	width: 449px;
+	height: 547px;
+	left: 0px;
+	top: 1375px;
+}
+
+#titletwo {
+	position: absolute;
+	width: 36px;
+	height: 86px;
+	left: 609px;
+	top: 1375px;
+}
+
+#slimtitletwo {
+	position: absolute;
+	width: 400px;
+	height: 48px;
+	left: 710px;
+	top: 1414px;
+}
+
+#texttwo {
+	position: absolute;
+	width: 686px;
+	height: 210px;
+	left: 687px;
+	top: 1550px;
+}
+
+#gradientrectanglethree{
+	position: absolute;
+	width: 1450px;
+	height: 389px;
+	left: 0px;
+	top: 2018px;
+}
+
+#slimtitlethree {
+	position: absolute;
+	width: 151px;
+	height: 48px;
+	left: 681px;
+	top: 2040px;
+}
+
+#textthree {
+	position: absolute;
+	width: 993px;
+	height: 90px;
+	left: 260px;
+	top: 2156px;
+}
+
+#titlethree {
+	position: absolute;
+	width: 37px;
+	height: 86px;
+	left: 609px;
+	top: 2005px;
+}
+
+#twogradientrectanglethree{
+	position: absolute;
+	width: 1450px;
+	height: 500px;
+	left: 0px;
+	top: 2018px;
+}
+
+#recovery {
+	position: absolute;
+	width: 1450px;
+	height: 456px;
+	left: 0px;
+	top: 2510px;
+}
+
+#textfour {
+	position: absolute;
+	width: 686px;
+	height: 180px;
+	left: 413px;
+	top: 2251px;
+}
+
+#reservenow{
+	position: absolute;
+	width: 150px;
+	height: 25px;
+	left: 620px;
+	top: 482px;
+	
+	font-family: 'Apple LiGothic';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 25px;
+	line-height: 25px;
+	text-align: center;
+
+	color: #4584FF;
+}
+
+#marsrectangle {
+	position: absolute;
+	width: 1450px;
+	height: 635px;
+	left: 0px;
+	top: 682px;
+	border:0px;
+
+	background: #00002E;
+}
+
+#rocket {
+	position: absolute;
+	width: 589px;
+	height: 522px;
+	left: 0px;
+	top: 805px;
+}
+
+#takeoff {
+	position: absolute;
+	width: 475px;
+	height: 48px;
+	left: 800px;
+	top: 840px;
+}
+
+#finaltitle {
+	position: absolute;
+	width: 500px;
+	height: 86px;
+	left: 782px;
+	top: 960px;
+}
+
+
+
